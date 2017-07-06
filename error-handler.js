@@ -22,7 +22,7 @@ function developmentErrorHandler(err, req, res, next) {
 }
 
 // production error handler
-// no stacktraces leaked to user
+// no stacktraces leaked to userRouter
 function productionErrorHandler(err, req, res, next) {
   res.status(err.status || 500);
   res.json({

@@ -3,13 +3,9 @@
 const bookshelf = require('../config/bookshelf-instance');
 
 module.exports = bookshelf.Model.extend({
-  tableName : 'user',
+  tableName : 'users',
 
   hidden: ['isDeleted'],
-
-  user() {
-    return this.belongsTo(require('../user/user.model'));
-  },
 
   setUserName(username) {
     this.set('username', username);
