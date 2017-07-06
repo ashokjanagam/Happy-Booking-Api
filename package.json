@@ -1,0 +1,31 @@
+{
+  "name": "Happy-Booking-Api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "aws-sdk": "^2.6.6",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.0",
+    "chai": "^3.5.0",
+    "connect-session-knex": "^1.1.0",
+    "cors": "^2.7.1",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "express-session": "^1.14.1",
+    "jwt-async": "^1.1.2",
+    "knex": "^0.11.9",
+    "lodash": "^4.16.4",
+    "mocha": "^2.5.3",
+    "mocha-jenkins-reporter": "0.2.3",
+    "multer": "^1.2.0",
+    "mysql": "^2.11.1",
+    "passport-jwt": "^2.1.0",
+    "shipping-fedex": "^0.1.5",
+    "throng": "^4.0.0"
+  }
+}
