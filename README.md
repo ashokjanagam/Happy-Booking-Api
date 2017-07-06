@@ -3,6 +3,12 @@
 ####
 1. To start the server Run "npm start" or click on "start" of npm structure
 2. To run or create knex files.Look in to "knex help" or
+3.Create a knex file
+    a. knex migrate:make filename
+    b. knex migrate:latest
+
+
+
   Commands:
     init [options]                         Create a fresh knexfile.
     migrate:make [options] <name>          Create a named migration file.

@@ -43,6 +43,14 @@ module.exports = bookshelf.Model.extend({
     return this.get('lastName');
   },
 
+  setMailId(mailId) {
+    this.set('mailId', mailId);
+  },
+
+  getMailId() {
+    return this.get('mailId');
+  },
+
   getDateCreated() {
     return this.get('dateCreated');
   },
